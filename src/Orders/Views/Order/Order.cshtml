@@ -1,0 +1,81 @@
+﻿@model List<ProyectoConrado.ViewModels.OrderViewModel>
+
+
+@{
+    ViewBag.Title = "Órdenes";
+}
+
+<h2>Órdenes</h2>
+
+<div style="text-align:right">
+    <button type="button" id="updateTableButton">Actualizar</button>
+    <p class="message-alerts"></p>
+</div>
+
+<table class="table">
+    <tr>
+        <th>
+            Impuesto
+        </th>
+        <th>
+            Subtotal
+        </th>
+        <th>
+            Total
+        </th>
+        <th>
+            Detalle
+        </th>
+    </tr>
+
+    @foreach (var order in Model)
+    {
+
+        <tr>
+            <td>
+                @Html.DisplayFor(x => order.Tax)
+            </td>
+            <td>
+                @Html.DisplayFor(x => order.Subtotal)
+            </td>
+            <td>
+                @Html.DisplayFor(x => order.Total)
+            </td>
+            <td>
+                @Html.ActionLink("Ver", "OrderDetail", new { id = order.Id })
+            </td>
+        </tr>
+
+    }
+</table>
+
+@ViewBag.Error
+
+@section Scripts {
+    <script>
+
+        $(document).ready(function () {
+
+            $("#updateTableButton").on('click', function () {
+                $.ajax({
+                    url: "api/Order/GetAll",
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function (data) {
+                        $('.message-alerts').html("");
+                        var table = $("tbody");
+                        table.html("");
+                        table.append("<tr><th>Impuesto</th><th>Subtotal</th><th>Total</th><th>Detalle</th></tr>");
+                        $.each(data, function (idx, elem) {
+                            table.append("<tr><td>" + elem.impuesto + "</td><td>" + elem.subtotal + "</td><td>" + elem.total + "</td><td><a href=\"/ordenes/" + elem.id + "\">Ver</a></td></tr>");
+                        });
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        $('.message-alerts').html(XMLHttpRequest.responseJSON.Message);
+                    }
+                });
+            });
+
+        });
+    </script>
+}

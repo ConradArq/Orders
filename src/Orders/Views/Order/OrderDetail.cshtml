@@ -1,0 +1,60 @@
+﻿@model List<ProyectoConrado.ViewModels.OrderDetailViewModel>
+
+
+@{
+    ViewBag.Title = "Detalle de la órden";
+}
+
+<h2>Detalle de la órden</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Nombre
+        </th>
+        <th>
+            Cantidad
+        </th>
+        <th>
+            Impuesto
+        </th>
+        <th>
+            Precio
+        </th>
+        <th>
+            Subtotal
+        </th>
+        <th>
+            Total
+        </th>
+    </tr>
+
+    @foreach (var orderDetail in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(x => orderDetail.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(x => orderDetail.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(x => orderDetail.Tax)
+            </td>
+            <td>
+                @Html.DisplayFor(x => orderDetail.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(x => orderDetail.Subtotal)
+            </td>
+            <td>
+                @Html.DisplayFor(x => orderDetail.Total)
+            </td>
+        </tr>
+    }
+
+</table>
+
+@ViewBag.Error
+
+<a href="/ordenes">Volver a Órdenes</a>

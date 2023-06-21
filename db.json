@@ -1,0 +1,336 @@
+{
+  "ordenes": [
+    {
+      "id": "963639d4-131b-42b6-96c5-c52fa40bcd49",
+      "impuesto": 156.19,
+      "subtotal": 2231.04,
+      "total": 2387.23
+    },
+    {
+      "id": "ba4555f5-c57e-48e1-b6b8-523595480bb6",
+      "impuesto": 75.2,
+      "subtotal": 1074.26,
+      "total": 1149.46
+    },
+    {
+      "id": "d5bc7a32-2343-4f4c-9626-01c37a31dfa9",
+      "impuesto": 133.98,
+      "subtotal": 1914.06,
+      "total": 2048.04
+    },
+    {
+      "id": "c9d18485-1138-4ef2-97e9-52023e5b4fe2",
+      "impuesto": 80.86,
+      "subtotal": 1155.06,
+      "total": 1235.92
+    },
+    {
+      "id": "6b47ca97-52a9-4164-8e96-6f82caacc022",
+      "impuesto": 103.3,
+      "subtotal": 1475.74,
+      "total": 1579.04
+    }
+  ],
+  "detalles": [
+    {
+      "cantidad": 5,
+      "id": "4a844bdf-62f5-435d-b910-06154c53d11b",
+      "impuesto": 9.72,
+      "nombre": "Chicken",
+      "ordenesId": "963639d4-131b-42b6-96c5-c52fa40bcd49",
+      "precio": 27.76,
+      "subtotal": 138.8,
+      "total": 148.52
+    },
+    {
+      "cantidad": 3,
+      "id": "b845c5f0-bf14-4724-97da-a55683680e65",
+      "impuesto": 9.22,
+      "nombre": "Soap",
+      "ordenesId": "963639d4-131b-42b6-96c5-c52fa40bcd49",
+      "precio": 43.9,
+      "subtotal": 131.7,
+      "total": 140.92
+    },
+    {
+      "cantidad": 3,
+      "id": "ff4c553a-3146-4344-afce-e42218f8b612",
+      "impuesto": 8,
+      "nombre": "Keyboard",
+      "ordenesId": "963639d4-131b-42b6-96c5-c52fa40bcd49",
+      "precio": 38.08,
+      "subtotal": 114.24,
+      "total": 122.24
+    },
+    {
+      "cantidad": 8,
+      "id": "fad77b9b-d060-49ca-9ac8-dde06b7c00bf",
+      "impuesto": 23.53,
+      "nombre": "Computer",
+      "ordenesId": "963639d4-131b-42b6-96c5-c52fa40bcd49",
+      "precio": 42.01,
+      "subtotal": 336.08,
+      "total": 359.61
+    },
+    {
+      "cantidad": 5,
+      "id": "383a8a3b-36f3-4a29-a817-692ea45d52da",
+      "impuesto": 16.22,
+      "nombre": "Computer",
+      "ordenesId": "963639d4-131b-42b6-96c5-c52fa40bcd49",
+      "precio": 46.33,
+      "subtotal": 231.65,
+      "total": 247.87
+    },
+    {
+      "cantidad": 5,
+      "id": "0ca12ea1-ccf5-4f5d-a9f5-1a63068c3807",
+      "impuesto": 16.22,
+      "nombre": "Mouse",
+      "ordenesId": "963639d4-131b-42b6-96c5-c52fa40bcd49",
+      "precio": 46.35,
+      "subtotal": 231.75,
+      "total": 247.97
+    },
+    {
+      "cantidad": 10,
+      "id": "a7f29504-5cbf-4fa1-81ee-60eaae27d08e",
+      "impuesto": 15.19,
+      "nombre": "Bacon",
+      "ordenesId": "963639d4-131b-42b6-96c5-c52fa40bcd49",
+      "precio": 21.7,
+      "subtotal": 217,
+      "total": 232.19
+    },
+    {
+      "cantidad": 10,
+      "id": "e8f7ed88-1071-48a4-8b7d-9a3f7e19c984",
+      "impuesto": 33.29,
+      "nombre": "Soap",
+      "ordenesId": "963639d4-131b-42b6-96c5-c52fa40bcd49",
+      "precio": 47.55,
+      "subtotal": 475.5,
+      "total": 508.79
+    },
+    {
+      "cantidad": 8,
+      "id": "e71f716a-ae10-4cb2-9497-91e4233fedd2",
+      "impuesto": 15.88,
+      "nombre": "Keyboard",
+      "ordenesId": "963639d4-131b-42b6-96c5-c52fa40bcd49",
+      "precio": 28.36,
+      "subtotal": 226.88,
+      "total": 242.76
+    },
+    {
+      "cantidad": 9,
+      "id": "6f2fc301-77c3-4f72-a21e-bc67a0cb48ab",
+      "impuesto": 8.92,
+      "nombre": "Mouse",
+      "ordenesId": "963639d4-131b-42b6-96c5-c52fa40bcd49",
+      "precio": 14.16,
+      "subtotal": 127.44,
+      "total": 136.36
+    },
+    {
+      "cantidad": 10,
+      "id": "43f6c546-01a5-419b-b296-c74fe1018292",
+      "impuesto": 23.77,
+      "nombre": "Sausages",
+      "ordenesId": "ba4555f5-c57e-48e1-b6b8-523595480bb6",
+      "precio": 33.96,
+      "subtotal": 339.6,
+      "total": 363.37
+    },
+    {
+      "cantidad": 10,
+      "id": "632ff4e5-d643-4782-a2c3-ddd434e52d63",
+      "impuesto": 29.48,
+      "nombre": "Hat",
+      "ordenesId": "ba4555f5-c57e-48e1-b6b8-523595480bb6",
+      "precio": 42.11,
+      "subtotal": 421.1,
+      "total": 450.58
+    },
+    {
+      "cantidad": 6,
+      "id": "d11d4456-b38b-4ee3-a12d-64809730cb27",
+      "impuesto": 16.36,
+      "nombre": "Bacon",
+      "ordenesId": "ba4555f5-c57e-48e1-b6b8-523595480bb6",
+      "precio": 38.96,
+      "subtotal": 233.76,
+      "total": 250.12
+    },
+    {
+      "cantidad": 7,
+      "id": "90410bcc-2e24-41e2-9d2c-05d3cb77f54c",
+      "impuesto": 5.59,
+      "nombre": "Tuna",
+      "ordenesId": "ba4555f5-c57e-48e1-b6b8-523595480bb6",
+      "precio": 11.4,
+      "subtotal": 79.8,
+      "total": 85.39
+    },
+    {
+      "cantidad": 9,
+      "id": "b01613ba-5099-4bb0-b7aa-91f1ad5072fc",
+      "impuesto": 21.84,
+      "nombre": "Computer",
+      "ordenesId": "d5bc7a32-2343-4f4c-9626-01c37a31dfa9",
+      "precio": 34.66,
+      "subtotal": 311.94,
+      "total": 333.78
+    },
+    {
+      "cantidad": 6,
+      "id": "fd7bb038-c577-4863-864a-1e795343b1cf",
+      "impuesto": 12.6,
+      "nombre": "Chair",
+      "ordenesId": "d5bc7a32-2343-4f4c-9626-01c37a31dfa9",
+      "precio": 30.01,
+      "subtotal": 180.06,
+      "total": 192.66
+    },
+    {
+      "cantidad": 9,
+      "id": "5e3d8c72-9203-43a9-b735-597b88482e23",
+      "impuesto": 28.78,
+      "nombre": "Gloves",
+      "ordenesId": "d5bc7a32-2343-4f4c-9626-01c37a31dfa9",
+      "precio": 45.68,
+      "subtotal": 411.12,
+      "total": 439.9
+    },
+    {
+      "cantidad": 10,
+      "id": "f51b4432-9845-4214-98b7-f72bde2c7011",
+      "impuesto": 25.03,
+      "nombre": "Shoes",
+      "ordenesId": "d5bc7a32-2343-4f4c-9626-01c37a31dfa9",
+      "precio": 35.76,
+      "subtotal": 357.6,
+      "total": 382.63
+    },
+    {
+      "cantidad": 7,
+      "id": "a6e5ccd6-df77-4b09-88f4-e05f821280e5",
+      "impuesto": 15.82,
+      "nombre": "Gloves",
+      "ordenesId": "d5bc7a32-2343-4f4c-9626-01c37a31dfa9",
+      "precio": 32.29,
+      "subtotal": 226.03,
+      "total": 241.85
+    },
+    {
+      "cantidad": 8,
+      "id": "374fddbd-5df0-47ce-80c8-5a6e3f2612c4",
+      "impuesto": 25.8,
+      "nombre": "Chips",
+      "ordenesId": "d5bc7a32-2343-4f4c-9626-01c37a31dfa9",
+      "precio": 46.07,
+      "subtotal": 368.56,
+      "total": 394.36
+    },
+    {
+      "cantidad": 5,
+      "id": "4d2ef5ee-3f8f-4110-b21b-1a36d917790f",
+      "impuesto": 4.11,
+      "nombre": "Chair",
+      "ordenesId": "d5bc7a32-2343-4f4c-9626-01c37a31dfa9",
+      "precio": 11.75,
+      "subtotal": 58.75,
+      "total": 62.86
+    },
+    {
+      "cantidad": 10,
+      "id": "838b3d81-3e09-483a-8fa5-2051f157f7db",
+      "impuesto": 28.85,
+      "nombre": "Shirt",
+      "ordenesId": "c9d18485-1138-4ef2-97e9-52023e5b4fe2",
+      "precio": 41.22,
+      "subtotal": 412.2,
+      "total": 441.05
+    },
+    {
+      "cantidad": 9,
+      "id": "d9203ca6-d60d-4a67-8447-722106e1ab19",
+      "impuesto": 17.77,
+      "nombre": "Chicken",
+      "ordenesId": "c9d18485-1138-4ef2-97e9-52023e5b4fe2",
+      "precio": 28.2,
+      "subtotal": 253.8,
+      "total": 271.57
+    },
+    {
+      "cantidad": 5,
+      "id": "17bced35-7bb1-4dd8-a8b3-433f2e2c0858",
+      "impuesto": 17.34,
+      "nombre": "Computer",
+      "ordenesId": "c9d18485-1138-4ef2-97e9-52023e5b4fe2",
+      "precio": 49.54,
+      "subtotal": 247.7,
+      "total": 265.04
+    },
+    {
+      "cantidad": 8,
+      "id": "ba47ff0f-6faa-4307-8578-bd299480a380",
+      "impuesto": 16.9,
+      "nombre": "Keyboard",
+      "ordenesId": "c9d18485-1138-4ef2-97e9-52023e5b4fe2",
+      "precio": 30.17,
+      "subtotal": 241.36,
+      "total": 258.26
+    },
+    {
+      "cantidad": 9,
+      "id": "bb18e788-0424-4b0d-9f71-1cbc09c6f0a5",
+      "impuesto": 18.1,
+      "nombre": "Chair",
+      "ordenesId": "6b47ca97-52a9-4164-8e96-6f82caacc022",
+      "precio": 28.73,
+      "subtotal": 258.57,
+      "total": 276.67
+    },
+    {
+      "cantidad": 10,
+      "id": "301605c7-2c53-4507-b624-f65fb19252cd",
+      "impuesto": 30.56,
+      "nombre": "Tuna",
+      "ordenesId": "6b47ca97-52a9-4164-8e96-6f82caacc022",
+      "precio": 43.65,
+      "subtotal": 436.5,
+      "total": 467.06
+    },
+    {
+      "cantidad": 4,
+      "id": "2de6ab16-bbe6-4dd4-b191-c81b51289f97",
+      "impuesto": 10.07,
+      "nombre": "Keyboard",
+      "ordenesId": "6b47ca97-52a9-4164-8e96-6f82caacc022",
+      "precio": 35.96,
+      "subtotal": 143.84,
+      "total": 153.91
+    },
+    {
+      "cantidad": 9,
+      "id": "1bc622f0-88a6-4186-a26e-ed0bacc5cbc3",
+      "impuesto": 31.44,
+      "nombre": "Hat",
+      "ordenesId": "6b47ca97-52a9-4164-8e96-6f82caacc022",
+      "precio": 49.91,
+      "subtotal": 449.19,
+      "total": 480.63
+    },
+    {
+      "cantidad": 4,
+      "id": "8af535da-bcbe-4a95-a24a-e225bd76abd8",
+      "impuesto": 13.13,
+      "nombre": "Ball",
+      "ordenesId": "6b47ca97-52a9-4164-8e96-6f82caacc022",
+      "precio": 46.91,
+      "subtotal": 187.64,
+      "total": 200.77
+    }
+  ]
+}
